@@ -1,0 +1,109 @@
+@charset "uft-8";
+/*----rules for all-----*/
+* {
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+
+/*----end rules for all-----*/
+
+/*----nav----*/
+nav img{
+	margin-left: -50px;
+	float: left;
+}
+nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	background-image: url(../img/redblur.jpg);
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	display: inline-block;
+	text-align: left;
+
+
+}
+nav a {
+	line-height: 1.5;
+	letter-spacing: 5px;
+	font-size: 25px;
+	margin-left: 40px;
+	font-weight: lighter;
+	text-decoration: none;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+
+}
+ nav a :hover {
+	color: red;
+
+}
+/*----end nav----*/
+
+/*----side content----*/
+.content {
+	height:100%;
+	width; 97%;
+	margin-left: 20%;
+}
+.snapple {
+	width: 90%;
+	height: 60%;
+	float: left;
+}
+.snapple h1, .snapple h3, .snapple p {
+		color: #bd1242;
+	margin-left: 2%;
+}
+.snapple h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+}
+.snapple p {
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+}
+.snapple img {
+	height: 750px;
+	width: 60%;
+	clear:both;
+	position: relative;
+	float: right;
+	padding-bottom: 5%;
+
+}
+
+.bottom{
+	border-top: solid 3px #ebf1f1;
+	height: 400px;
+	position: relative;
+	clear: both;
+	position: relative;
+	background-image: url(../img/bottgrande.jpg);
+	bottom:0;
+	text-align: center;
+}
+.bottom h1, .bottom li {
+	line-height: 1.5;
+	letter-spacing: 5px;
+	font-weight: lighter;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	color:white;
+}
+
+.paragraphs {
+	
+	display: inline-block;
+	margin: 35px;
+}
+/*----end side content ----*/
+
+/*----footer----*/
+
+
+/*----end footer----*/
